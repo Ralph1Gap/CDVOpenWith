@@ -2,7 +2,7 @@
 //  CDVOpenWith.h
 //  OpenWith
 //
-//  PhoneGap Build Compatibility added on 4/3/14 by Ralphonegap
+//  PhoneGap Build Compatibility added on 4/3/14 by Ralph1Gap
 //  Cordova 3.0 Compatibility added on 9/26/13 by njtman
 //  Created by Andrew Trice on 8/15/12.
 //  

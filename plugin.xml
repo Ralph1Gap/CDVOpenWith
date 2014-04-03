@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin
+    xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.phonegap.plugins.openwith"
+    version="0.0.1">
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <name>OpenWith</name>
+
+    <js-module src="www/CDVOpenWith.js" name="OpenWith">
+        <clobbers target="window.plugins.OpenWith" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="OpenWith">
+                <param name="ios-package" value="OpenWith" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CDVOpenWith.h" />
+        <source-file src="src/ios/CDVOpenWith.m" />
+    </platform>
+   
+</plugin>

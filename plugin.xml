@@ -10,6 +10,12 @@
     </engines>
 
     <name>OpenWith</name>
+    
+    <description>
+       This plugin sould allow you to open files in other apps.
+    </description>
+
+    <license>MIT</license>
 
     <js-module src="www/openwith.js" name="OpenWith">
         <clobbers target="window.plugins.openWith" />

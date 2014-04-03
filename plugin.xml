@@ -11,8 +11,8 @@
 
     <name>OpenWith</name>
 
-    <js-module src="www/CDVOpenWith.js" name="OpenWith">
-        <clobbers target="window.plugins.OpenWith" />
+    <js-module src="www/openwith.js" name="OpenWith">
+        <clobbers target="window.plugins.openWith" />
     </js-module>
 
     <platform name="ios">
